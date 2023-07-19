@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>TodoList App</h1>
+      <form class="form">
+        <input
+          class="todoInput"
+          type="text"
+          placeholder="What is a task today"
+        />
+        <button class="btn">Add</button>
+      </form>
+      <div class="allTodo">
+        <div class="createTodo">
+          <ul class="ul">
+            <!-- <li class="addTexts">
+                <div class="textLeft">
+                    <input class="inputRadio" type="radio" name='imgsel'/>
+                    <p>sabah kitab oxu</p>
+                </div>
+                    <i class="icon fa-solid fa-trash"></i>
+            </li> -->
+          </ul>
+        </div>
+        <hr class="hr" />
+        <div class="complatedTodo">
+            <h3 class="titleComp">Complated Todos</h3>
+          <ul class="ulComp">
+            <!-- <li class="textComplated">
+                    <div class="textLeft">
+                        <input class="inputRadio" type="radio" checked name='imgsel'/>
+                        <p class="textComp">sabah kitab oxu</p>
+                    </div>
+                        <i class="icon fa-solid fa-trash"></i>
+                </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="App.js"></script>
+  </body>
+</html>

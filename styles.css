@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+/* background-color: #1A1A40; */
+/* background-color: #8758ff; */
+
+body{
+    background-color: #8758ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.form{
+width: 100%;
+margin: 0;
+display: flex;
+
+}
+
+.form input{
+    width:100%;
+    height:40px;
+    padding: 0 10px;
+    outline: none;
+    background-color: #1A1A40;
+    border:1px solid #8758ff;
+    color:#fff;
+}
+.form input::placeholder{
+    color: #c0c0c068;
+}
+.form button{
+    width:20%;
+    height:40px;
+    background-color: #8758ff;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+.container{
+    position: relative;
+    color: #fff;
+    background-color: #1A1A40;
+    width: 50%;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 50px;
+    gap: 25px;
+
+}
+
+.ul{
+    display: flex;
+    flex-direction: column;
+    gap:15px
+}
+.createTodo{
+    width: 100%;
+}
+.allTodo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: auto;
+
+}
+.textLeft{
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    cursor: pointer;
+}
+.inputRadio{
+    cursor: pointer;
+
+}
+
+.hr{
+    width:100%;
+    display: none;
+}
+/* Complated class */
+input[type='radio']:after {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    margin-top: 3px;
+}
+
+input[type='radio']:checked:after {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    position: relative;
+    background-color:chartreuse;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    margin-top: 3px;
+
+}
+.titleComp{
+    display: none;
+}
+.titleCompShow{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.ulComp{
+    display: flex;
+    flex-direction: column;
+    gap:15px
+}
+
+.addTexts{
+    width: 100%;
+    height: 30px;
+    background-color: #8758ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.complatedTodo{
+    width:100%;
+}
+.textComp{
+    text-decoration: line-through;
+}
+.textLeftComp{
+    display: flex;
+    gap: 7px;
+}
+.textComplated{
+    width: 100%;
+    height: 30px;
+    background-color: #8758ff4e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
